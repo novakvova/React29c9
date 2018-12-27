@@ -1,12 +1,12 @@
 import React from 'react';
-import Arcticle from './Arcticle';
-import listArticles from '../data';
+import ArticleList from './ArticleList';
+import svetiks from '../data';
 
 function App() {
     return (
         <div>
             <h1>Hello Peter</h1>
-            <Arcticle article={listArticles[0]}/>
+            <ArticleList articles={svetiks}/>
             
         </div> 
     );
